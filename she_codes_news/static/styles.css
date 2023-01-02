@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: black;
+    /* background-color: white; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    /* background-color: black; */
+}
+
+/* img {
+    filter: grayscale(100%);
+    size: 5px;
+} */
+
+
+
+h1 {
+    font-family: 'Nabla', cursive;
+    text-decoration: none;
+    font-size: 4rem;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+   font-family: 'Roboto Slab', serif; 
+   color: white;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+}
+
+
+#header-text {
+    flex-basis: 80%;
+    display: flex;
+}
+
+nav {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+a {
+    margin: 2px;
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+
+}
+
+a, p {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.create_story_form {
+    /* text-align: center; */
+    /* border:red solid 2px !important; */
+    /* width: 100%; */
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+.create_story_form input, textarea{
+    /* text-align: center; */
+    /* border:rgb(34, 0, 255) solid 2px !important; */
+    /* width: 100%; */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+
+input[type=submit] {
+    background-color: rgb(244, 200, 53);
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    font-size: 1rem;
+    margin: 4px 2px;
+    border-radius: 6px;
+
+}
+
+
+
+
+ 

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Stories written by {{customuser.username}}:</h2>
+
+<div>
+    {% for story in customuser.stories.all %}
+        {% include 'news/storyCard.html' with story=story %}
+    {% endfor %}
+</div>
+
+{% endblock content %}
